@@ -1,6 +1,6 @@
 # .NET
-backend/CampusCoreAPI/bin/
-backend/CampusCoreAPI/obj/
+backend/bin/
+backend/obj/
 
 # React
 frontend/node_modules/
