@@ -49,7 +49,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:5173", "http://localhost:3000")
+        policy.WithOrigins("http://localhost:5173", "http://localhost:3000", "https://brave-ocean-06ad60300.1.azurestaticapps.net")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
