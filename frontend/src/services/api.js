@@ -1,4 +1,4 @@
-const API = 'http://localhost:5028/api';
+const API = 'https://campuscore-afg2h9grgbf0h0gn.centralindia-01.azurewebsites.net/api';
 
 function authHeaders() {
   const token = localStorage.getItem('token');
